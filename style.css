@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    background-color: #4c51f7;
+    background-image: url("assets/SkinsPicture.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-y: 90px;
+}
+
+.title {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Anton', sans-serif;
+    font-size: 500%;
+    text-shadow: 3px 3px 20px #ffffffe1;
+    animation: rotate 5s  linear infinite;
+
+}
+
+.FreeAccount {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    width: 100%;
+    height: 200%;
+    display: flex;
+    justify-content: center;
+    text-decoration:none;
+}
+
+button {
+    margin-top: 2%;
+    width: 20%;
+    height: 200px;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: #f3af19;
+    text-shadow: 3px 3px 20px #ffffff;
+    animation: smallbig 2s infinite;
+}
+
+button:hover {
+    margin-top: 2%;
+    width: 20%;
+    height: 200px;
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: #fec039;
+}
+
+button:active {
+    margin-top: 2%;
+    width: 20%;
+    height: 150px;
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: #f3af19;
+}
+
+
+
+@keyframes rotate {
+    25% {
+      transform: rotate(-5deg)
+    }
+    50% {
+      transform: rotate(5deg)
+    }
+    75% {
+        transform: rotate(-5deg)
+    }
+    100% {
+        transform: rotate(5deg)
+    }
+  }
+
+
+@keyframes smallbig {
+    0% {
+        width: 20%;
+        height: 200px;
+    }
+    50% {
+        width: 30%;
+        height: 250px;
+    }
+    100% {
+        width: 20%;
+        height: 200px;
+    }
+}
