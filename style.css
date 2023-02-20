@@ -90,14 +90,14 @@ button:active {
 @keyframes smallbig {
     0% {
         width: 20%;
-        height: 200px;
+        height: 200%;
     }
     50% {
         width: 30%;
-        height: 250px;
+        height: 250%;
     }
     100% {
         width: 20%;
-        height: 200px;
+        height: 200%;
     }
 }
